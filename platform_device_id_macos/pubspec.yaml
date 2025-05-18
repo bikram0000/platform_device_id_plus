@@ -17,7 +17,7 @@ dev_dependencies:
 
 flutter:
   plugin:
-    implements: platform_device_id
+    implements: platform_device_id_plus
     platforms:
       macos:
         pluginClass: PlatformDeviceIdMacosPlugin

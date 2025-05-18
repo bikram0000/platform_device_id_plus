@@ -5,14 +5,14 @@
 Pod::Spec.new do |s|
   s.name             = 'platform_device_id_plus'
   s.version          = '0.0.1'
-  s.summary          = 'macos for platform_device_id plugin.'
+  s.summary          = 'Flutter macos for platform_device_id plugin.'
   s.description      = <<-DESC
-A new flutter plugin project.
+A macOS implementation of the platform_device_id plugin.
                        DESC
-  s.homepage         = 'https://github.com/BestBurning/platform_device_id'
+  s.homepage         = 'https://github.com/BestBurning/platform_device_id/tree/master/platform_device_id_macos'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'di1shuai' => 'zhushuai026@gmail.com' }
-  s.source           = { :path => '.' }
+  s.source           = { :http => 'https://github.com/BestBurning/platform_device_id/tree/master/platform_device_id_macos' }
   s.source_files     = 'Classes/**/*'
   s.dependency 'FlutterMacOS'
 
